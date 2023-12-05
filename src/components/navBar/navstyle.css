@@ -1,0 +1,93 @@
+.blockbar1 {
+    /* background-color: #ffffff; */
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.line {
+    background-color: #412F26;
+    height: 2.3%;
+    left: 15%;
+    position: absolute;
+    top: 85%;
+    width: 85%;
+}
+.blockbar1 .text1 {
+    color: #412F26;
+    font-family: "League Gothic-Regular";
+    font-size: 200%;
+    font-weight:700;
+    letter-spacing: 2%;
+    text-decoration: none;
+    
+  }
+#home{
+    position: absolute;
+    top: 45%;
+    left: 20%; 
+}
+#home:hover {
+    text-decoration: underline; 
+}
+ #book{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+ }
+ #book:hover {
+    text-decoration: underline; 
+}
+ #room{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+ }
+ #room:hover {
+    text-decoration: underline; 
+}
+ #rewards{
+    position: absolute;
+    top: 45%;
+    left: 65%;
+ }
+ #rewards:hover {
+    text-decoration:underline; 
+}
+.ellipse {
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 60%;
+    left: 90%;
+    position: absolute;
+    top: 15%;
+    width: 6%;
+}
+
+@media only screen and (max-width: 1350px) {
+    .blockbar1 .text1 {
+        font-size: 150%;
+    }
+    .blockbar1{
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .blockbar1 .text1 {
+        font-size: 110%;
+    }
+    .blockbar1{
+        height: 65%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .blockbar1 .text1 {
+        font-size: 90%;
+    }
+    .blockbar1{
+        height: 60%;
+    }
+}
