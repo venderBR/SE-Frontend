@@ -1,0 +1,198 @@
+
+.log {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: var(--Ce5);
+    border-radius: 50px;
+}
+
+.menubutton1 {
+    position: relative;
+    top: 20%;
+    height: 8%;
+    width: 100%;
+    border: none;
+    background-color: var(--Ce5);
+    font-family: "League Gothic-Regular";
+    font-size: 150%;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+.menubutton1:hover {
+    color: #ffffff;
+    border: var(--Ce1);
+    background-color: var(--Ce1);
+}
+
+#position011{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+.textlogo {
+    width: 65%;
+    height: 5%;
+}
+
+.logo1 {
+    position: relative;
+    top: 3%;
+    left: 7%;
+    height: 10%;
+    width: 25%;
+    margin-right: 1%;
+}
+
+/* Style for the navigation */
+.navigation {
+    font-family: "League Gothic-Regular";
+    font-size: 120%;
+    height: 15%;
+    position: relative;
+    top: 20%;
+    left: 0;
+    background-color: #fff;
+    border: 0.5% solid var(--Ce1);
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+}
+
+/* Style for individual navigation links */
+.navigation a {
+    position: relative;
+    left: 5%;
+    top: 5%;
+    height: 40%;
+    text-decoration: none;
+    color: #333;
+    padding: 1% 0;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+.navigation a:hover {
+    color: var(--Ce1);
+}
+
+@media only screen and (max-width: 1830px) {
+    .textlogo{
+        width: 70%;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1750px) {
+    .textlogo{
+        width: 60%;
+        font-size: 85%;
+    }
+    #position011{
+        top: 5.2%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .textlogo{
+        width: 55%;
+        font-size: 75%;
+    }
+    #position011{
+        top: 6%;
+        left: 37%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .textlogo{
+        width: 55%;
+        font-size: 65%;
+    }
+    #position011{
+        top: 6%;
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .textlogo{
+        width: 55%;
+        font-size: 55%;
+    }
+    #position011{
+        top: 6%;
+        left: 43%;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .textlogo{
+        width: 55%;
+        font-size: 45%;
+    }
+    #position011{
+        top: 6.5%;
+        left: 46%;
+    }
+    .menubutton1{
+        font-size: 120%;
+    }
+    .navigation{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .textlogo{
+        display: none;
+    }
+    .logo1{
+        position: relative;
+        top: 3%;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .menubutton1{
+        font-size: 100%;
+    }
+    .navigation{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .textlogo{
+        display: none;
+    }
+    .logo1{
+        position: relative;
+        top: 3%;
+        left: 22%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .textlogo{
+        display: none;
+    }
+    .logo1{
+        position: relative;
+        top: 3%;
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .textlogo{
+        display: none;
+    }
+    .logo1{
+        position: relative;
+        top: 3%;
+        left: 14%;
+    }
+}

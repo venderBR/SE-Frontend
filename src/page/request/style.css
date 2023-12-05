@@ -1,0 +1,224 @@
+.element1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.element1 .background {
+    background-color: #EDE1D2;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.element1 .blockbar {
+    /* background-color: #ffffff; */
+    height: 11%;
+    left: 40%;
+    position: absolute;
+    top: 0%;
+    width: 60%;
+}
+
+.element1 .block {
+    background-color: #ffffff;
+    border-radius: 10%;
+    height: 80%;
+    left: 50%;
+    position: absolute;
+    top: 15%;
+    width: 45%;
+}
+.element1 .blocktext {
+    /* background-color: #ffffff; */
+    height: 80%;
+    left: 10%;
+    position: absolute;
+    top: 12%;
+    width: 40%;
+}
+
+.element1 .text {
+    color: #000000;
+    font-family: "Abhaya Libre ExtraBold-Regular";
+    font-size: 350%;
+    font-weight:600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none; 
+  }
+ #frist{
+    position: absolute;
+    top: 0%;
+    left: 7%;
+ }
+ #song{
+    position: absolute;
+    top: 7.5%;
+    left: 7%;
+ }
+#three{
+    font-family: "League Gothic-Regular";
+    font-size: 150%;
+    font-weight:300;
+    letter-spacing: 2%;
+    position: absolute;
+    top: 18.5%;
+    left: 7%;
+}
+.element1 .search {
+    height: 6.5%;
+    left: 1%;
+    /*object-fit: cover; 
+    position: absolute;
+    top: 0%; */
+    width: 6.5%;
+}
+  
+.element1 .pngtreeround {
+    height: 55%;
+    left: 0%;
+    /* object-fit: cover; */
+    position: absolute;
+    top: 55%;
+    width: 80%;
+}
+
+.element1 .inputBox{
+    color: #c5c1cb;
+    height: 120%;
+    width: 80%;
+}
+:where(.css-dev-only-do-not-override-zcfrx9).ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-bottom:0%;
+    min-height: 18%;
+    vertical-align: top;
+}
+#Title {
+    width: 80%;
+    height: 130%;
+    position: absolute;
+    top: 180%;
+    left: 12%;
+    margin-bottom: 5%;
+}
+#Writer {
+    width: 80%;
+    height: 130%;
+    position: absolute;
+    top: 145%;
+    left: 12%;
+}
+#Publisher {
+    margin-bottom: 3.7%;
+    width: 80%;
+    height: 130%;
+    position: absolute;
+    top: 110%;
+    left: 12%;
+}
+#Reson {
+    width: 80%;
+    height: 330%;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    margin-bottom: 3%;
+}
+#block1{
+    height: 150%;
+    width: 87%;
+    position: absolute;
+    left: 7%;
+    top: 120%;
+    margin-bottom: 0%;
+    min-height: 0%;
+}
+.element1 .button {
+    width: 100%; 
+    height: 100%; 
+    border: 0.5px solid #412F26; 
+    border-radius: 5px; 
+    padding: 0.5px 4px; 
+    background-color: #412F26; 
+    font-family: "League Gothic-Regular";
+    font-weight: 500;
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 200%;
+    cursor: pointer;
+    position: absolute;
+}
+:where(.css-dev-only-do-not-override-zcfrx9).ant-input:hover {
+    border-color: #412F26;
+}
+:where(.css-dev-only-do-not-override-zcfrx9).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #412F26;
+    background-color: #EDE1D2;
+    border: 0.5px solid #412F26;
+    font-weight: 700;
+}
+#position{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 5.5%;
+    left: 5%;
+}
+#position1{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 21.5%;
+    left: 5%;
+}
+#position2{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 37.5%;
+    left: 5%;
+}
+#position3{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 53.5%;
+    left: 5%;
+}
+:where(.css-dev-only-do-not-override-zcfrx9).ant-form-item .ant-form-item-control-input {
+    top: 3.5%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 4000%;
+}
+
+.element1 .local{
+    border: #000000;
+    height: 5%;
+    width: 8%;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.element1 .local1{
+    border: #000000;
+    height: 5%;
+    width: 8%;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+}
